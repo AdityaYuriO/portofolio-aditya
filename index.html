@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Nugraha | Cyberpunk Developer Portfolio</title>
+  
+  <!-- Font Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">&lt;<span>ADITYA</span>.DEV /&gt;</a>
+      <button class="hamburger" id="hamburger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#terminal">Terminal</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#education">Pendidikan</a></li>
+        <li><a href="#projects">Proyek</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="about">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="badge">SISWA AKTIF RPL • SMKN 1 KAWALI</div>
+        <h1>ADITYA NUGRAHA</h1>
+        <h2>WEB DEVELOPER</h2>
+        <p>
+          Siswa aktif jurusan Rekayasa Perangkat Lunak (RPL) yang berdedikasi membangun aplikasi web modern, sistem manajemen sekolah, dan arsitektur backend yang responsif.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Lihat Karya</a>
+          <a href="https://www.linkedin.com/in/aditya-nugraha-978883329/" target="_blank" class="btn btn-secondary">LinkedIn Profile</a>
+        </div>
+      </div>
+      <div class="avatar-wrapper">
+        <div class="avatar-frame">
+          <div class="avatar-img-container">
+            <!-- Ganti src di bawah ini dengan lokasi file foto pribadi Anda -->
+            <img src="img/WhatsApp Image 2026-11-03 at 18.44.07.jpeg" alt="Aditya Nugraha Avatar" />
+          </div>
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            HI!
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TERMINAL INTERAKTIF (BAHASA INDONESIA) -->
+  <section class="terminal-section" id="terminal">
+    <div class="container">
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="terminal-title">aditya@cyber-core:~ (bash)</div>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+          <div class="terminal-output" id="terminal-output">Selamat datang di Terminal Interaktif Aditya Nugraha!
+Ketik <span style="color:var(--neon-cyan)">bantuan</span> untuk melihat daftar perintah yang tersedia.</div>
+          <div class="terminal-input-line">
+            <span class="prompt">aditya@cyber-core:~$</span>
+            <input type="text" class="terminal-input" id="terminal-input" placeholder="ketik perintah di sini..." />
+          </div>
+        </div>
+        <div class="terminal-presets">
+          <span class="preset-label">Preset Perintah:</span>
+          <button class="preset-btn" onclick="runCommand('bantuan')">bantuan</button>
+          <button class="preset-btn" onclick="runCommand('tentang')">tentang</button>
+          <button class="preset-btn" onclick="runCommand('keahlian')">keahlian</button>
+          <button class="preset-btn" onclick="runCommand('pendidikan')">pendidikan</button>
+          <button class="preset-btn" onclick="runCommand('proyek')">proyek</button>
+          <button class="preset-btn" onclick="runCommand('kontak')">kontak</button>
+          <button class="preset-btn" onclick="runCommand('bersihkan')">bersihkan</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <h2 class="section-title">KEAHLIAN <span>SAYA</span></h2>
+      <div class="skills-grid">
+        
+        <!-- Hard Skills -->
+        <div class="skills-card">
+          <h3>HARD SKILLS</h3>
+          <div class="hard-skill-item">
+            <div class="skill-info">
+              <span>Laravel / PHP Framework</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" style="width: 88%;"></div>
+            </div>
+          </div>
+          <div class="hard-skill-item">
+            <div class="skill-info">
+              <span>MySQL</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="hard-skill-item">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="hard-skill-item">
+            <div class="skill-info">
+              <span>Tailwind CSS & HTML5/CSS3</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar-bg">
+              <div class="skill-bar-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skills-card">
+          <h3>SOFT SKILLS</h3>
+          <div class="soft-skills-container">
+            <div class="soft-skill-box">
+              <h4>Problem Solving</h4>
+              <p>Menganalisis bug sistem & menemukan solusi efektif.</p>
+            </div>
+            <div class="soft-skill-box">
+              <h4>Debugging</h4>
+              <p>Cepat melacak error dari log server hingga UI.</p>
+            </div>
+            <div class="soft-skill-box">
+              <h4>Kerja Sama Tim</h4>
+              <p>Mampu berkolaborasi dalam proyek kelompok sekolah.</p>
+            </div>
+            <div class="soft-skill-box">
+              <h4>Manajemen Waktu</h4>
+              <p>Disiplin menyelesaikan tugas tepat tenggat waktu.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section class="education-section" id="education">
+    <div class="container">
+      <h2 class="section-title">RIWAYAT <span>PENDIDIKAN</span></h2>
+      <div class="timeline">
+        
+        <!-- SDN 2 KERTAYASA -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">2015 - 2021</div>
+            <div class="timeline-title">SDN 2 KERTAYASA</div>
+            <div class="timeline-subtitle">Pendidikan Sekolah Dasar</div>
+          </div>
+        </div>
+
+        <!-- SMPN 2 KAWALI -->
+        <div class="timeline-item right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">2021 - 2024</div>
+            <div class="timeline-title">SMPN 2 KAWALI</div>
+            <div class="timeline-subtitle">Pendidikan Sekolah Menengah Pertama</div>
+          </div>
+        </div>
+
+        <!-- SMKN 1 KAWALI -->
+        <div class="timeline-item left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-year">2024 - 2027 (SEKARANG)</div>
+            <div class="timeline-title">SMKN 1 KAWALI</div>
+            <div class="timeline-subtitle">Rekayasa Perangkat Lunak (RPL) • Siswa Aktif</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <h2 class="section-title">PORTOFOLIO <span>PROYEK</span></h2>
+      
+      <div class="filter-container">
+        <button class="filter-btn active" onclick="filterProjects('all', this)">Semua</button>
+        <button class="filter-btn" onclick="filterProjects('sekolah', this)">Sistem Sekolah</button>
+        <button class="filter-btn" onclick="filterProjects('finansial', this)">Finansial / E-Voting</button>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- Project 1 -->
+        <div class="project-card" data-category="sekolah">
+          <div>
+            <div class="project-tag">Sistem Manajemen</div>
+            <div class="project-title">Website PKL SMKN 1 Kawali</div>
+            <div class="project-desc">Aplikasi web pengelolaan Praktik Kerja Lapangan dengan kontrol akses berbasis peran, elevation kelas, dan ekspor data.</div>
+            <div class="project-tech">
+              <span class="tech-pill">Laravel</span>
+              <span class="tech-pill">MySQL</span>
+              <span class="tech-pill">Tailwind CSS</span>
+            </div>
+          </div>
+          <a href="https://pkl.smkn1kawali.sch.id/">
+          <button class="btn-inspect" >LIHAT</button>
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-category="finansial">
+          <div>
+            <div class="project-tag">Perbankan / Finansial</div>
+            <div class="project-title">Bank Mini SMKN 1 Kawali</div>
+            <div class="project-desc">Sistem perbankan internal sekolah untuk manajemen tabungan siswa, pencatatan transaksi, dan laporan saldo.</div>
+            <div class="project-tech">
+              <span class="tech-pill">PHP</span>
+              <span class="tech-pill">Laravel</span>
+              <span class="tech-pill">MySQL</span>
+            </div>
+          </div>
+          <a href="https://bankmini-one.qdtechpplgk1.id/">
+          <button class="btn-inspect">LIHAT</button>
+          </a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="finansial">
+          <div>
+            <div class="project-tag">E-Voting / Pemilu</div>
+            <div class="project-title">Pilketos Web System</div>
+            <div class="project-desc">Platform pemungutan suara pemilihan Ketua OSIS berbasis web yang efisien, transparan, dan realtime.</div>
+            <div class="project-tech">
+              <span class="tech-pill">Laravel</span>
+              <span class="tech-pill">JavaScript</span>
+            </div>
+          </div>
+          <a href="https://pilketos.smkn1kawali.sch.id/">
+          <button class="btn-inspect" >DETAIL ARSITEKTUR</button>
+          </a>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL DETAIL ARSITEKTUR -->
+  <div class="modal-backdrop" id="modal-backdrop">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      <div class="modal-title" id="modal-title">Judul Proyek</div>
+      <div class="modal-body" id="modal-body">Deskripsi lengkap proyek...</div>
+    </div>
+  </div>
+
+  <!-- FOOTER & MEDIA SOSIAL -->
+  <footer class="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/aditya-nugraha-978883329/" target="_blank" class="social-btn">LinkedIn</a>
+        <a href="https://www.instagram.com/adityaka___/#" target="_blank" class="social-btn">Instagram</a>
+        <a href="https://www.tiktok.com/@adityanugraha0229" target="_blank" class="social-btn">TikTok</a>
+        <a href="mailto:adityanugrahakawali2@gmail.com" class="social-btn">Email Direct</a>
+      </div>
+      <div class="copyright">
+        &copy; 2026 Aditya Nugraha • SMKN 1 Kawali (RPL). All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT VANILLA -->
+  <script src="js/javascript.js"></script>
+</body>
+</html>
