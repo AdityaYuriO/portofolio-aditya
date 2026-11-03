@@ -876,3 +876,15 @@
         display: flex;
       }
     }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg-dark); color: var(--text-main); font-family: 'Space Grotesk', sans-serif; padding: 20px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    h1 { font-size: 2.5rem; color: #fff; margin-bottom: 5px; }
+    h2 { font-size: 1.2rem; color: var(--neon-magenta); font-family: 'JetBrains Mono', monospace; margin-bottom: 20px; }
+    section { background: var(--bg-card); border: 1px solid rgba(0, 243, 255, 0.2); border-radius: 8px; padding: 20px; margin-bottom: 20px; }
+    h3 { color: var(--neon-cyan); margin-bottom: 15px; border-bottom: 1px solid rgba(0, 243, 255, 0.2); padding-bottom: 5px; }
+    ul { list-style: none; }
+    li { margin-bottom: 10px; }
+    .social-links a { color: var(--neon-cyan); text-decoration: none; margin-right: 15px; font-family: 'JetBrains Mono', monospace; }
+    .social-links a:hover { text-decoration: underline; }
