@@ -41,7 +41,7 @@
 
         case 'tentang':
           response = `[PROFIL ADITYA NUGRAHA]
-Status : Siswa Aktif SMKN 1 Kawali (2024 - 2027)
+Status : Fresh Graduate SMKN 1 Kawali (2027)
 Jurusan: Rekayasa Perangkat Lunak (RPL)
 Fokus  : Web Development (Laravel, PHP, MySQL, JavaScript, Tailwind CSS).`;
           break;
